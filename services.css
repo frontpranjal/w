@@ -1,0 +1,40 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow: hidden;
+  }
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  body {
+    background-color: black;
+    color: white;
+  }
+  h1 {
+    opacity: 0.7;
+    font-size: 5vw;
+    margin: 5vw 0;
+  }
+  aside ul li {
+    margin: 2vw;
+    font-size: 3vw;
+    list-style: circle;
+  }
+  
+  @media screen and (min-width: 0px) and (max-width: 450px){
+  
+    h1 {
+      font-size: 5vh;
+      margin: 5vh 0;
+    }
+  
+    aside ul li {
+      margin: 2vh;
+      font-size: 2vh;
+    }
+  
+  }
